@@ -27,7 +27,7 @@ public class Spawner : MonoBehaviour
     /// <summary>
     /// 生成方块
     /// </summary>
-    void GenerateBlock()
+    public void GenerateBlock()
     {
         int i = Random.Range(0, blocks.Length);
 
