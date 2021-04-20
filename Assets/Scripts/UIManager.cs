@@ -52,6 +52,11 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            ScreenCapture.CaptureScreenshot("screen.png");
+        }
+
         if (isEnd)
         {
             return;
